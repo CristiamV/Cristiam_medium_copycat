@@ -1,0 +1,64 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@media(max-width: 900px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media(max-width: 750px) {
+    .container {
+      width: 450px;
+    }
+  }
+  @media(max-width: 500px) {
+    .container {
+      width: 350px;
+    }
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500; /* if you want the light version */
+  color: rgb(95, 95, 95);
+  background-color: lightcyan;
+  line-height: 200%;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700; /* if you want the light version */
+  color:seashell;
+}
+h2 {
+    color: black;
+}
+
+a {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  background-image: linear-gradient(to bottom, rgb(216, 247, 181), rgb(182, 240, 90));
+  text-decoration: none;
+}
+
+.banner {    
+    background-image: url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+.banner > div {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+
+.container {  
+    padding: 30px;
+    margin: 0px auto;
+  }
