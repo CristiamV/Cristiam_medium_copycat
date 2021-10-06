@@ -18,7 +18,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500; /* if you want the light version */
   color: rgb(95, 95, 95);
-  background-color: lightcyan;
+  background-color: rgb(221, 230, 230);
   line-height: 200%;
 }
 h1 {
